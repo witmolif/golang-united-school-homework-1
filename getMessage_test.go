@@ -10,4 +10,5 @@ func TestGetMessage(t *testing.T) {
 	if !strings.Contains(m, "Hello") {
 		t.Errorf("Hello not found in %s", m)
 	}
+
 }
