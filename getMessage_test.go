@@ -7,7 +7,7 @@ import (
 
 func TestGetMessage(t *testing.T) {
 	m := GetMessage()
-	if !strings.Contains(m, "🗺️") {
-		t.Errorf("🗺️ not found in %s", m)
+	if !strings.Contains(m, "Hello") {
+		t.Errorf("Hello not found in %s", m)
 	}
 }
